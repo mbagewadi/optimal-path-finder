@@ -103,5 +103,7 @@ Explore Rest APIs
 <details>
 <summary>Click here to show the screenshot of project result</summary>
     <p> Picture 1 </p>
-    <img src ="/screenshot/postman-1.PNG">
+    <img src ="/screenshot/postman_success.PNG">
+    <p> Picture 2 </p>
+    <img src ="/screenshot/postman_unauthorized.PNG">
 </details>    
