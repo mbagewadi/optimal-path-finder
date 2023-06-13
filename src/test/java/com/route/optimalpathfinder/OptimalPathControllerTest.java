@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -39,6 +40,7 @@ public class OptimalPathControllerTest {
 	private ObjectMapper objectMapper;
 
 	@Test
+	@WithMockUser
 	public void calculateLandRoute_ReturnsRouteResponse() throws Exception {
 		// Arrange
 		String from = "USA";

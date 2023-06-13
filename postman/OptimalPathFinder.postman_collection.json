@@ -11,11 +11,26 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"from\" : \"GBR\",\n    \"to\" : \"IRL\"\n}",
+					"raw": "{\n    \"from\" : \"IND\",\n    \"to\" : \"DEU\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
